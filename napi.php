@@ -22,7 +22,7 @@ class DVZ_Widget extends WP_Widget {
 
 
 
-  public function widget($args) {
+  public function widget($args, $instance) {
     echo $args['before_widget'];
 
 
