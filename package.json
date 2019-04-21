@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@symfony/webpack-encore": "^0.27.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack-notifier": "1.6.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev-server": "./node_modules/.bin/encore dev-server",
+    "dev": "./node_modules/.bin/encore dev",
+    "webpack": "./node_modules/.bin/encore dev --watch",
+    "prod": "./node_modules/.bin/encore production"
+  },
+  "dependencies": {
+    "numeral": "^2.0.6"
+  }
+}
