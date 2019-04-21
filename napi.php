@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Napi
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+Plugin URI: https://github.com/Alicannklc/Wordpress-Doviz-Api-Plugin
 Description: Wordpress Doviz Kuru
 Version: 1.0
 Author: Alicannklc
