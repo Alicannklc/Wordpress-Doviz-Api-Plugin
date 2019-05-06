@@ -63,7 +63,7 @@ class List extends React.Component {
               <div className="pricea">
                 <span className="bolda size-16a">{item.name}</span>
                 <span className="size-13a">
-                  {numeral(item.data.todayLowestSellPrice).format("0,0.000")}
+                  {numeral(item.data.lastSellPrice).format("0,0.000")}
                 </span>
               </div>
             </div>
