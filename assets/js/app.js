@@ -32,7 +32,7 @@ class List extends React.Component {
   componentDidMount() {
     const data = [];
     fetch(
-      `https://napi.canlidoviz.com/items/current?marketId=0&code=USD&code=EUR&code=GA`
+      `https://api.canlidoviz.com/items/current?marketId=0&code=USD&code=EUR&code=GA`
     )
       .then(d => d.json())
       .then(data => {
